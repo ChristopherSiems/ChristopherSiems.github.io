@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('fonts/FiraCode-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Fira Code', sans-serif;
+  overflow-x: hidden;
+  margin:0;
+  padding: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+.panel {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(images/raster/cmacd.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.midpanel {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subpanel {
+  width: 50vw;
+  padding: 9vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headshot {
+  max-width: 33vw;
+  max-height: 33vw;
+}
+
+.icon {
+  max-width: 32px;
+  max-height: 32px;
+}
