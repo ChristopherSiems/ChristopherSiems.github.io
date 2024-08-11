@@ -1,19 +1,19 @@
 window.onload = function() {
-  const headshot = document.querySelector('.headshot');
-  const content_container = document.getElementById('content_container');
-  const panel = document.querySelector('.midpanel');
+  const panels = document.getElementsByClassName('container');
 
   let resize_timer;
 
   function switch_layout() {
     clearTimeout(resize_timer);
     resize_timer = setTimeout(function() {
-      if (headshot.offsetHeight > content_container.offsetHeight) {
-        panel.style.flexDirection = 'row';
-      }
-      else {
-        panel.style.flexDirection = 'column';
-      }
+      Array.from(panels).forEach(function(panel) {
+        if (document.documentElement.clientHeight < document.documentElement.clientWidth) {
+          panel.style.flexDirection = 'row';
+        }
+        else {
+          panel.style.flexDirection = 'column';
+        };
+      });
     }, 64);
   };
 
