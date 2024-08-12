@@ -1,5 +1,5 @@
 window.onload = function() {
-  const panels = document.getElementsByClassName('container');
+  const panels = document.getElementsByClassName('panel');
 
   let resize_timer;
 
@@ -7,7 +7,7 @@ window.onload = function() {
     clearTimeout(resize_timer);
     resize_timer = setTimeout(function() {
       Array.from(panels).forEach(function(panel) {
-        if (document.documentElement.clientHeight < document.documentElement.clientWidth) {
+        if (window.innerWidth > window.innerHeight) {
           panel.style.flexDirection = 'row';
         }
         else {
