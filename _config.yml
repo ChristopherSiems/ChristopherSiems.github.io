@@ -31,6 +31,7 @@ breadcrumbs: true
 show_date: true
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark"
+markdown: "kramdown"
 
 author:
   name: *name
