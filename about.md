@@ -5,7 +5,7 @@ permalink: "/about/"
 author_profile: true
 ---
 
-Hi there, my name is Christoper Siems and welcome to my website and blog! There's not much here now but please check in every once in a while or subscribe to the RSS feed so you can keep up with what I'm all about
+Hi there, my name is Christoper Siems and welcome to my website and blog! There's not much here now but please check in every once in a while so you can keep up with what I'm all about
 
 I am a computer science, data science, and math student at Clark University. Currently, I'm a junior at Clark pursuing my undergraduate degree. At Clark I have taken classes in a range of computing and math related topics such as:
 
